@@ -1,0 +1,5 @@
+Add the following line to your main parent .gwt.xml:
+     <inherits name="com.glubble.auto.AutoConfiguration"/>
+    
+And the following in each child .gwt.xml:
+     <set-configuration-property name="foobar" value="whee1234" />
