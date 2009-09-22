@@ -1,0 +1,9 @@
+<module>
+
+	<inherits name="com.google.gwt.core.Core"/>
+  
+    <generate-with class="com.glubble.auto.generator.AutoConfigurationGenerator">
+        <when-type-assignable class="com.glubble.auto.client.AutoConfiguration"/>
+    </generate-with>
+
+</module>
